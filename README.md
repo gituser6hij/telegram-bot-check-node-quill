@@ -50,6 +50,18 @@ Before getting started, make sure you have the following:
    tmux attach -t frame
    ```
 
+6. Then it is time to speak with your bot on telegram and cheach out the /start command
+
+7. Then you can edit your bot with BotFather in order to edit the commands:
+
+output - Console output 5 lines.
+peerid - Get Peer ID .
+nodeinfo - Infos Node / Balance / Max Frame / Version / Peer Score.
+vnstat - Infos Network.
+sysinfo - Infos System Monitor.
+start - Command list.
+help - Help / Doc.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
