@@ -30,7 +30,7 @@ Before getting started, make sure you have the following:
    ```
    1. Launch your QUILL NODE:
    ```
-   ./poomanscript.js // (ceremonyclient/node/)
+   ./poor_mans_cd.sh
    ```
    2. Quit this tmux session CTRL B, D:
    ```
