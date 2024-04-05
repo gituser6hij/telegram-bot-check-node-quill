@@ -63,6 +63,10 @@ sysinfo - Infos System Monitor.
 start - Command list.
 help - Help / Doc.
 ```
+![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/8e2454a9-067c-4f22-92ea-0284b320e295)
+![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/90949049-f4d3-45a9-b599-b2374c637046)
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
