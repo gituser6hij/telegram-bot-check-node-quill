@@ -2,7 +2,7 @@
 ![image_2024-04-06_02-09-08](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/21b995c7-c789-4709-90c5-3d6e832ddc43)
 
 ## Overview
-This project is aimed at creating a Telegram bot using Node.js to monitor system resources and display traffic statistics using vnstat. It also captures output from a tmux session and sends it as a message to the user.
+This project is aimed at creating a Telegram bot using Node.js to monitor system resources and display traffic statistics using vnstat, sysinfo, NODE command like -peer-id or -node-info. It also captures output from a tmux session and sends it as a message to the user. So you can check the console output directly in your telegram chat.
 
 ## Prerequisites
 Before getting started, make sure you have the following:
