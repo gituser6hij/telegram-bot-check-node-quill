@@ -110,8 +110,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Email: user137@protonmail.com
 - Telegram: https://t.me/staiph
 
-- Address ETH:
-- 0xCa429941000E55675e7a9B662DBa49b05bBFCc86
+- Address ETH: 0xCa429941000E55675e7a9B662DBa49b05bBFCc86
 
 **Thank you** for using **telegram-bot-check-node-quill**
 
