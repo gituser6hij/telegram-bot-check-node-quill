@@ -6,15 +6,15 @@ const token = process.env.BOT_TOKEN; // Set 'BOT_TOKEN' with your actual bot tok
 const bot = new TelegramBot(token, { polling: true });
 
 // Help message to guide users on how to use the bot
-const helpMessage = `Welcome to the QuillNodeCheckBot!
+const helpMessage = `Welcome to the telegram-bot-check-node-quill!
 
 - /output - Console output.
-- /peerid - Peer id of your node.
+- /peerid - Peer-id of the node.
 - /nodeinfo - Info node.
 - /vnstat - Info network.
 - /sysinfo - System monitor.
 - /start - Command list.
-- /help - Help / Doc.`;
+- /about - Contact.`;
 
 
 // Command to capture system resource information
@@ -129,10 +129,29 @@ bot.onText(/\/help/, (msg) => {
     bot.sendMessage(msg.chat.id, helpMessage);
 });
 
+// Command to display about page
+bot.onText(/\/about/, async (msg) => {
+    const messages = [
+        'Version: v0.1.2\n\nProject repository on GitHub: https://github.com/gituser6hij/telegram-bot-check-node-quill',
+        'Dev: user137\nEmail: user137@protonmail.com\nTelegram: https://t.me/staiph',
+        'Reward address ETH:',
+        '0xCa429941000E55675e7a9B662DBa49b05bBFCc86',
+        'Thank you for using telegram-bot-check-node-quill.'
+    ];
+
+    for (const message of messages) {
+        try {
+            await bot.sendMessage(msg.chat.id, message);
+        } catch (error) {
+            console.error('Error sending message:', error);
+        }
+    }
+});
+
 // Default message for unrecognized commands
 bot.on('message', (msg) => {
     const message = msg.text.toString().toLowerCase();
-    const commands = ['/start', '/sysinfo', '/peerid', '/vnstat', '/help', '/nodeinfo', '/output'];
+    const commands = ['/start', '/sysinfo', '/peerid', '/vnstat', '/help', '/nodeinfo', '/output', '/about'];
 
     if (!commands.includes(message)) {
         bot.sendMessage(msg.chat.id, 'Sorry, I don\'t understand that command. Please use /help to see the list of available commands.');
