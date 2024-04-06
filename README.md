@@ -67,13 +67,14 @@ Before getting started, make sure you have the following:
 
 ```
 output - Console output 5 lines.
-peerid - Get Peer ID .
+peerid - Get Peer ID.
 nodeinfo - Infos Node / Balance / Max Frame / Version / Peer Score.
 vnstat - Infos Network.
 sysinfo - Infos System Monitor.
 start - Command list.
-help - Help / Doc.
+about - Contact.
 ```
+
 ![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/8e2454a9-067c-4f22-92ea-0284b320e295)
 ![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/90949049-f4d3-45a9-b599-b2374c637046)
 
