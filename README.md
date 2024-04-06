@@ -28,7 +28,7 @@ Before getting started, make sure you have the following:
    ```
    tmux new -s frame
    ```
-   1. Launch your QUILL NODE:
+   1. Launch your QUILL NODE from /ceremonyclient/node/:
    ```
    ./poor_mans_cd.sh
    ```
@@ -36,7 +36,7 @@ Before getting started, make sure you have the following:
    ```
    CTRL B, D
    ```
-2. Launch a new tmux session named telegram in your terminal:
+2. Launch a new tmux session named telegram in your terminal from /telegram-bot-check-node-quill/:
    ```
    tmux new -s telegram
    ```
@@ -66,6 +66,20 @@ help - Help / Doc.
 ![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/8e2454a9-067c-4f22-92ea-0284b320e295)
 ![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/90949049-f4d3-45a9-b599-b2374c637046)
 
+## Links of interest:
+
+1. **vnstat**:
+   - Website: [vnstat.net](https://vnstat.net/)
+   - GitHub Repository: [github.com/vergoh/vnstat](https://github.com/vergoh/vnstat)
+   - Description: vnStat is a network traffic monitor for Linux and BSD. It keeps a log of network traffic for the selected interfaces and provides statistics about them.
+
+2. **tmux**:
+   - Website: [github.com/tmux/tmux](https://github.com/tmux/tmux)
+   - Description: tmux is a terminal multiplexer that allows users to access multiple separate terminal sessions inside a single terminal window or remote terminal session. It is especially useful for remote administration and managing multiple tasks simultaneously.
+
+3. **Telegram API**:
+   - Documentation: [core.telegram.org/bots/api](https://core.telegram.org/bots/api)
+   - Description: Telegram offers a comprehensive API that allows developers to create bots, integrate Telegram into their applications, and build custom solutions. It provides methods for sending and receiving messages, managing users and groups, and much more.
 
 
 ## Contributing
