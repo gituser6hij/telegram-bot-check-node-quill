@@ -81,6 +81,11 @@ help - Help / Doc.
    - Documentation: [core.telegram.org/bots/api](https://core.telegram.org/bots/api)
    - Description: Telegram offers a comprehensive API that allows developers to create bots, integrate Telegram into their applications, and build custom solutions. It provides methods for sending and receiving messages, managing users and groups, and much more.
 
+4. **Node.js**:
+   - Official Website: [nodejs.org](https://nodejs.org/)
+   - GitHub: [github.com/nodejs/node](https://github.com/nodejs/node)
+   - Description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It's designed to build scalable network applications and is known for its event-driven, non-blocking I/O model. With Node.js, developers can write server-side code using JavaScript, enabling full-stack development with a single language. It has a rich ecosystem of libraries and frameworks, making it popular for web and backend development.
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
