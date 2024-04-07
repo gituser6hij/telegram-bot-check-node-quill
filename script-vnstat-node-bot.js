@@ -14,7 +14,8 @@ const helpMessage = `Welcome to the telegram-bot-check-node-quill!
 - /vnstat - Info network.
 - /sysinfo - System monitor.
 - /start - Command list.
-- /about - Contact.`;
+- /about - About page.
+- /donation - Donation Addresses.`;
 
 
 // Command to capture system resource information
@@ -134,9 +135,33 @@ bot.onText(/\/about/, async (msg) => {
     const messages = [
         'Version: v0.1.2\n\nProject repository on GitHub: https://github.com/gituser6hij/telegram-bot-check-node-quill',
         'Dev: user137\nEmail: user137@protonmail.com\nTelegram: https://t.me/staiph',
-        'Reward address ETH:',
-        '0xCa429941000E55675e7a9B662DBa49b05bBFCc86',
         'Thank you for using telegram-bot-check-node-quill.'
+    ];
+
+    for (const message of messages) {
+        try {
+            await bot.sendMessage(msg.chat.id, message);
+        } catch (error) {
+            console.error('Error sending message:', error);
+        }
+    }
+});
+
+// Command to display about page
+bot.onText(/\/donation/, async (msg) => {
+    const messages = [
+        
+        'EVM:',
+        '0xCa429941000E55675e7a9B662DBa49b05bBFCc86',
+        ' --- ',
+        'BTC:',
+        'bc1q9yxd77s7jljc0qmu9yyu2gw2m2untv9q0qrc2u',
+        ' --- ',
+        'kaspa:qpat8a9kw2drsmuy09q27xy8h279p3hhj6xx2zv07cun0nwmdsysxkgqv7paj',
+        ' --- ',
+        'Much appreciated!'
+
+
     ];
 
     for (const message of messages) {
@@ -151,7 +176,7 @@ bot.onText(/\/about/, async (msg) => {
 // Default message for unrecognized commands
 bot.on('message', (msg) => {
     const message = msg.text.toString().toLowerCase();
-    const commands = ['/start', '/sysinfo', '/peerid', '/vnstat', '/help', '/nodeinfo', '/output', '/about'];
+    const commands = ['/start', '/sysinfo', '/peerid', '/vnstat', '/help', '/nodeinfo', '/output', '/about', '/donation'];
 
     if (!commands.includes(message)) {
         bot.sendMessage(msg.chat.id, 'Sorry, I don\'t understand that command. Please use /help to see the list of available commands.');
