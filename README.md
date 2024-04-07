@@ -1,6 +1,11 @@
 # Telegram Bot Check NODE QUILL network (Node.js)
 ![image_2024-04-06_02-09-08](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/21b995c7-c789-4709-90c5-3d6e832ddc43)
 
+## Last Versions
+
+- **v1.0.0**:
+  - Initial release
+
 ## Table of Contents
 
 1. [Overview](#overview)
