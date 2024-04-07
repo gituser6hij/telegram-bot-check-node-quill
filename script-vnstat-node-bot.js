@@ -133,7 +133,7 @@ bot.onText(/\/help/, (msg) => {
 // Command to display about page
 bot.onText(/\/about/, async (msg) => {
     const messages = [
-        'Version: v0.1.2\n\nProject repository on GitHub: https://github.com/gituser6hij/telegram-bot-check-node-quill',
+        'Version: v1.0.0\n\nProject repository on GitHub: https://github.com/gituser6hij/telegram-bot-check-node-quill',
         'Dev: user137\nEmail: user137@protonmail.com\nTelegram: https://t.me/staiph',
         'Thank you for using telegram-bot-check-node-quill.'
     ];
