@@ -73,6 +73,8 @@ vnstat - Infos Network.
 sysinfo - Infos System Monitor.
 start - Command list.
 about - Contact.
+donation - Donation Addresses.
+
 ```
 
 ![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/8e2454a9-067c-4f22-92ea-0284b320e295)
@@ -110,7 +112,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Email: user137@protonmail.com
 - Telegram: https://t.me/staiph
 
-- Address ETH: 0xCa429941000E55675e7a9B662DBa49b05bBFCc86
+## Donation Addresses.
+- Address EVM: 0xCa429941000E55675e7a9B662DBa49b05bBFCc86
+- Address BTC: bc1q9yxd77s7jljc0qmu9yyu2gw2m2untv9q0qrc2u
+- kaspa:qpat8a9kw2drsmuy09q27xy8h279p3hhj6xx2zv07cun0nwmdsysxkgqv7paj
 
 **Thank you** for using **telegram-bot-check-node-quill**
 
