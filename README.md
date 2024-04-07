@@ -11,6 +11,8 @@
 6. [Links of Interest](#links-of-interest)
 7. [Contributing](#contributing)
 8. [License](#license)
+9. [About](#about)
+10. [Donation](#donation)
 
 ## Overview
 This project is aimed at creating a Telegram bot using Node.js to monitor system resources and display traffic statistics using vnstat, sysinfo, NODE command like -peer-id or -node-info. It also captures output from a tmux session and sends it as a message to the user. So you can check the console output directly in your telegram chat.
@@ -107,12 +109,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## About dev
+## About
 - Dev: **user137**
 - Email: user137@protonmail.com
 - Telegram: https://t.me/staiph
 
-## Donation Addresses.
+## Donation
 - Address EVM: 0xCa429941000E55675e7a9B662DBa49b05bBFCc86
 - Address BTC: bc1q9yxd77s7jljc0qmu9yyu2gw2m2untv9q0qrc2u
 - kaspa:qpat8a9kw2drsmuy09q27xy8h279p3hhj6xx2zv07cun0nwmdsysxkgqv7paj
