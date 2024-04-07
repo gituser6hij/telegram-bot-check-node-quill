@@ -84,8 +84,10 @@ donation - Donation Addresses.
 
 ```
 
-![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/8e2454a9-067c-4f22-92ea-0284b320e295)
 ![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/90949049-f4d3-45a9-b599-b2374c637046)
+![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/7a4faaec-b9fa-41c8-b0ed-a15a2f4ffd4a)
+![image](https://github.com/gituser6hij/telegram-bot-check-node-quill/assets/48154428/13d2582e-48ca-405d-9772-0f9fa9a8be10)
+
 
 ## Links of interest:
 
