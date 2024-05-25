@@ -61,7 +61,7 @@ bot.onText(/\/peerid(?: (.+))?/, (msg, match) => {
     const mode = match[1] || ''; // Extracting mode from command, if provided
 
     // Execute the shell command in the specified directory
-    exec(`cd ${directoryPath} && GOEXPERIMENT=arenas go run ./... -peer-id`, (error, stdout, stderr) => {
+    exec(`cd ${directoryPath} && GOEXPERIMENT=arenas go run ./... --signature-check=false -peer-id`, (error, stdout, stderr) => {
         if (error) {
             // Send error message if command execution failed
             bot.sendMessage(chatId, `Command execution failed: ${error.message}`);
@@ -83,7 +83,7 @@ bot.onText(/\/nodeinfo(?: (.+))?/, (msg, match) => {
     const mode = match[1] || ''; // Extracting mode from command, if provided
 
     // Execute the shell command in the specified directory
-    exec(`cd ${directoryPath} && GOEXPERIMENT=arenas go run ./... -node-info`, (error, stdout, stderr) => {
+    exec(`cd ${directoryPath} && GOEXPERIMENT=arenas go run ./... --signature-check=false -node-info`, (error, stdout, stderr) => {
         if (error) {
             // Send error message if command execution failed
             bot.sendMessage(chatId, `Command execution failed: ${error.message}`);
