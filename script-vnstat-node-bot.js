@@ -115,7 +115,7 @@ bot.onText(/\/nodeinfo(?: (.+))?/, (msg, match) => {
 // Command to read the last 10 lines of output from tmux session and extract peer count, network peer count, and difficulty
 bot.onText(/\/output/, (msg) => {
   // Execute tmux command to capture last 10 lines of output
-  exec("tmux capture-pane -p -t frame -S -150", (error, stdout, stderr) => {
+  exec("tmux capture-pane -p -t frame -S -300", (error, stdout, stderr) => {
     if (error) {
       bot.sendMessage(msg.chat.id, "Error: " + error.message);
       return;
